@@ -1,0 +1,245 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family:  "Helvetica Neue" ;
+}
+body{
+    height:1000px ;
+}
+
+/* start header section */
+.header{
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.3)50%, rgba(0,0,0,0.3)50%),url(images/drew-coffman-1872.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;v
+}
+/* STArT NAVBAR SECTION  */
+.header .nav{
+    
+    margin-left: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.header .nav a img{
+    width: 200px;
+    margin-top: 30px;
+}
+.header .nav .links{
+    padding-top: 50px;
+}
+.header .nav .links a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+    
+}
+.header .nav a:hover{
+    color: #e0c690;
+}
+.header .family{
+    color: #fff;
+    
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    line-height: 50px;
+    word-spacing: 5px;
+    
+
+}
+.header .family p{
+    font-size: 20px;
+    color: #f3f2f1;
+}
+.header .family h1{
+    font-size: 50px;
+    font-family:  'Open Sans', arial;
+}
+.header .family button{
+    width: 150px;
+    height: 50px;
+    border: 1px #fff solid;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #fff;
+}
+.header .family button:hover{
+    background-color: #fff;
+    color:black ;
+}
+/* END NAVBAR SECTION  */
+/* END header section */
+
+
+
+
+/* start who we are section  */
+
+.whoweare{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-family: "Alegreya Sans" ;
+    margin-bottom: 70px;
+    
+}
+.whoweare img{
+    width: 35%;
+    margin-left: 10%;
+}
+.whoweare .who{
+    margin-left: 5%;
+    line-height: 50px;
+
+}
+.whoweare .who p{
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #8e7754;
+}
+.whoweare .who p i{
+    margin-right: 15px;
+}
+.OurLocation{
+    background-color: #f8f8f8;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    height: 500px;
+}
+.OurLocation .our{
+    margin-left: 10%;
+    line-height: 35px;
+}
+.OurLocation img{
+    width:35% ;
+    margin-left: 5%;
+}
+.OurLocation .our h2{
+    margin-bottom: 30px;
+
+}
+.OurLocation p{
+    color: #8e7754;
+}
+/* END who we are section  */
+
+/* strat baking section  */
+.baking {
+    margin-top: 70px;
+    text-align: center;
+}
+.baking p{
+    margin-top: 30px;
+    color: #8e7754;
+    
+}
+.super{
+    text-align: center;
+   
+}
+.super .SuperiorBreads{
+    display: inline-block;
+    
+    text-align: center;
+    margin-top: 50px;
+    
+    
+}
+.super .SuperiorBreads img{
+    width: 400px;
+    padding-left: 30px;
+    
+}
+.super .SuperiorBreads h2{
+    margin: 30px;
+    font-family:  "Helvetica Neue" ;
+}
+.super .SuperiorBreads p{
+    line-height: 30px;
+    color: #8e7754;
+}
+/* END baking section  */
+
+/* start ContactInformation section  */
+
+.ContactInformation{
+    background-color: #f8f8f8;
+    display: flex;
+    /* height: 300px; */
+    margin-top: 100px;
+    
+    
+
+}
+.ContactInformation .textcenter{
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding-right: 100px;
+    line-height: 20px;
+}
+.ContactInformation .textcenter h2{
+    margin-bottom: 10px;
+}
+.ContactInformation .textcenter p{
+    line-height: 30px;
+    margin-top: 30px;
+    color:  #8e7754;
+}
+.ContactInformation .textcenter p i{
+    padding-right: 15px;
+    
+}
+.ContactInformation iframe{
+    width: 40%;
+}
+
+/* END ContactInformation section  */
+
+/* start footer section  */
+footer{
+    background-color: #353330;
+    height: 400px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.last img{
+    margin-top: 100px;
+}
+.last p{
+    margin-top: 20px;
+    color:  #777769;
+    margin-bottom: 20px;
+}
+.last a i{
+    color: #f8f8f8;
+    width: 40px;
+    
+
+}
+.last a{
+    border-radius: 100px;
+}
+
+.last a:hover {
+    background-color: #777769;
+}
+
+
+
+
+
+
+
+/* END footer section  */
